@@ -1,0 +1,27 @@
+{
+  "name": "client-signup-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/handler.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^1.0.0-rc.7",
+    "busboy": "^0.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "stripe": "^8.126.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy",
+    "start": "node handler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sarthak Joshi",
+  "license": "ISC"
+}
